@@ -1,5 +1,9 @@
 # BaseOS
 
+This fork fixes FAT shutdown by matching complete mount options (`ro` versus
+`errors=remount-ro`, `sync` versus `dirsync`). Based on v1.5.3 and tested on RGSP.
+Downloads: [fork releases](https://github.com/xpank/BaseOS/releases).
+
 BaseOS is a small, fast operating system for Anbernic RG XX handhelds. It
 handles the hardware and starts your choice of frontend:
 [NextUI](https://nextui.loveretro.games), [Slot](https://slot-cfw.fyi),
